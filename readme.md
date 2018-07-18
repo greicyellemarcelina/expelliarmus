@@ -15,11 +15,14 @@ Identidade:
  - Streaming
 
 ## Cores do Projeto
-- `#F8F3E8` (Romance)
-}
+- `#000000` (Black)
+- `#ffffff` (White)
+- `a9a9a9` (Gray)
+
 
 ## Fontes do Projeto
-- `Cinzel Decorative`
+- `Roboto`
+- `Oxygen`
 
 
 
