@@ -5,9 +5,9 @@
 }
 
 main {
-    width: 1500px;
-    height: 800px;
-    background: #000000;
+    width: 100%;
+    min-height: 100%;
+    background: #040404;
     position: absolute;
 
 }
@@ -20,9 +20,10 @@ main {
 
 .panel-general {
     width: 1200px;
-    height: 400px;
+    height: 500px;
     display: flex;
     margin-left: 144px;
+    
 }
 
 
@@ -42,18 +43,14 @@ main {
 
 .panel-area-1 {
     width: 750px;
-    height: calc(550px - 76.6%);
+    height: calc(550px - 33.33%);
+    padding: 4px;
 }
 
 .panel-area-2 {
     width: 750px;
-    height: calc(550px - 66.6%);
-
-}
-
-.panel-area-3 {
-    width: 750px;
-    height: calc(550px - 56.6%);
+    height: calc(550px - 66.66%);
+    padding: 4px;
 
 }
 
@@ -65,6 +62,8 @@ main {
 .title-related {
     color: white;
     font-family: 'Oxygen';
+    letter-spacing: 1px;
+
 }
 
 .classificacao {
@@ -72,6 +71,7 @@ main {
     font-family: 'Oxygen';
     color: gray;
     margin-top: 8px;
+    word-spacing: 12px;
 }
 
 .menu {
@@ -80,38 +80,46 @@ main {
     text-decoration: none;
     margin-top: 48px;
     font-family: 'Oxygen';
+    letter-spacing: 2px;
 
+}
+
+.li { 
+    
+    display: inline-block;
+    width: 8px;
 
 }
 .descricao {
     color: white;
-    margin-top: 12px;
+    margin-top: 48px;
     font-family: 'Oxygen';
+    letter-spacing: 1px;
 
 }
-
 
 a:link {    
     color: gray;
     text-decoration: none;
+
 }
 
 a:hover {
     color: gray;
-    text-decoration: none;
+    text-decoration: none ;
+    color: white;
+    border-bottom: 4px solid red;
 
 }
+
 a:visited {
     color: gray;
 }
 
 
-
 .img-capa-principal {
     max-width: 400px;
-    max-height: 500px;
-
-
+    max-height: 550px;
 }
 
 .img-netflix {
@@ -125,7 +133,6 @@ a:visited {
     height: 144px;
     float: left;
     margin-top: 12px;
-    position: relative;
 }
 
 .img-chamber {
@@ -144,39 +151,50 @@ a:visited {
 
 }
 
-
 .area-browse {
+    font-family: 'Oxygen';
     color: gray;
-    margin-top: 48px;
+    margin-top: 40px;
     margin-left: 12px;
+    letter-spacing: 1px;
 }
 
-.area-search {
+.search {
+    font-family: 'Oxygen';
+    width: 128px;
+    height: 32px;
     color: gray;
-    margin-top: 46px;
-    margin-left: 18px;
+    margin-top: 34px;
+    margin-left: 12px;
+    background: #040404;
+    border: 0cm;
+
 }
 
 .starring {
     margin-top: 32px;
     color: gray;
+    letter-spacing: 1px;
+
 }
 
-.created {
+.created, .genre {
     color: gray;
     margin-top: 18px;
-}
+    letter-spacing: 1px;
 
-.genre {
-    color: gray;
-    margin-top: 18px;
 }
 
 .txt-white {
     color: white;
+    letter-spacing: 1px;
+    text-align:right;
+
 }
 
 .alert {
     float: right;
 }
+
+
 

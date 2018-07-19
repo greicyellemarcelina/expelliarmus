@@ -9,6 +9,7 @@ Esse projeto é um treino de css + html
 
 ## Detalhes
 Tema: `Harry Potter`
+
 Identidade: 
  - Filme
  - Anúncio
